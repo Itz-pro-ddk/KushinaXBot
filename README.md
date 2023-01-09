@@ -3,7 +3,7 @@
 
 ### ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ꜰᴇᴀᴛᴜʀᴇꜱ
 
-<p align="center"><a href="https://t.me/Kushina_Robot"><img src="https://iili.io/H53To0v.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/Kushina_Robot"><img src="https://iili.io/H7KRqcQ.webp" width="300"></a></p>
 <p align="center">
 
 ## ʀᴇᴘᴏ ꜱᴛᴀᴛꜱ
