@@ -1,5 +1,5 @@
 """Kushina mixin base"""
-# Copyright (C) 2020 - 2023  UserbotIndo Team, <https://github.com/userbotindo.git>
+# Copyright (C) 2020 - 2023  Kushina Team, <https://github.com/Itz-pro-ddk.git>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
