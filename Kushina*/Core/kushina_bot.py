@@ -1,5 +1,5 @@
 """Kushina base"""
-# Copyright (C) 2020 - 2023  UserbotIndo Team, <https://github.com/userbotindo.git>
+# Copyright (C) 2020 - 2023  Kushina Team, <https://github.com/Itz-pro-ddk.git>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,7 +30,7 @@ from .plugin_extenter import PluginExtender
 from .telegram_bot import TelegramBot
 
 
-class Anjani(TelegramBot, DatabaseProvider, PluginExtender, CommandDispatcher, EventDispatcher):
+class kushina(TelegramBot, DatabaseProvider, PluginExtender, CommandDispatcher, EventDispatcher):
     # Initialized during instantiation
     log: logging.Logger
     http: aiohttp.ClientSession
@@ -54,7 +54,7 @@ class Anjani(TelegramBot, DatabaseProvider, PluginExtender, CommandDispatcher, E
     @classmethod
     async def init_and_run(
         cls, config: TelegramConfig[str, str], *, loop: Optional[asyncio.AbstractEventLoop] = None
-    ) -> "Anjani":
+    ) -> "kushina":
         anjani = None
 
         if loop:
@@ -62,8 +62,8 @@ class Anjani(TelegramBot, DatabaseProvider, PluginExtender, CommandDispatcher, E
 
         try:
             kushina = cls(config)
-            await anjani.run()
-            return anjani
+            await kushina.run()
+            return kushina
         finally:
             asyncio.get_event_loop().stop()
 
