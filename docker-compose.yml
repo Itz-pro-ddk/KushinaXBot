@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  anjani:
+    build:
+      context: .
+    restart: on-failure
+# From here you can remove it when using mongodb atlas
+    depends_on:
+      - mongo
+    environment:
+      DB_URI: 'mongodb://kushina:mypasswd@mongo'
+
+  mongo:
+    image: 'mongo:latest'
+    volumes:
+      - 'mongo_kushina:/data/db'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: kushina
+      MONGO_INITDB_ROOT_PASSWORD: mypasswd
+
+volumes:
+  mongo_kushina:
+# Leave one line, for coding style
