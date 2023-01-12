@@ -2,7 +2,7 @@
 python-telegram-bot==13.9
 Telethon==1.24.0
 pyrate-limiter
-sqlalchemy==1.4.11
+sqlalchemy==1.4.46
 git+https://github.com/starry69/python-markdown2.git
 future
 psycopg2-binary
